@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <a href="#Binary Converter">Binary Converter</a>
+        <a href="#Odd or Even Converter">Odd or Even Converter</a>
+        <a href="#Dollar to Rupess Converter">Dollar to Rupess Converter</a>
+    </nav>
+   <div class="converter1" id = "Binary Converter"> 
+    <div class="card">
+        <h1>Binary Converter</h1>
+        <input type="number" placeholder="Enter a number" id="number_conveter">
+        <button onclick="convert()">Convert</button>
+        <p id="result"> </p>
+    </div>
+   </div>
+   <div class="converter1" id="Odd or Even Converter"> 
+    <div class="card">
+        <h1>Odd or Even Converter</h1>
+        <input type="number" placeholder="Enter a number" id="number_conveter_even_odd">
+        <button onclick="convert_even_odd()">Convert</button>
+        <p id="result_odd"> </p>
+    </div>
+   </div>
+   <div class="converter1" id="Dollar to Rupess Converter"> 
+    <div class="card">
+        <h1>Dollar to Rupess Converter</h1>
+        <input type="number" placeholder="Enter a number" id="number_converter_dollar">
+        <button onclick="convert_dollar()">Convert</button>
+        <br>
+        <div class="cur">
+        <i class="fa-sharp fa-solid fa-indian-rupee-sign"></i><p id="result_dollar"> </p>
+        </div>
+    </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
